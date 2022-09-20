@@ -1,0 +1,44 @@
+.testFieldsModalWrapper{
+    padding: 200px 350px
+    // padding-top: 5rem;
+
+}
+
+.testFieldsModalPadd{
+    height: 80%;
+    padding: 15px;
+    // width: 80%;
+    background: white;
+    // align-self: center;
+    // vertical-align: middle;
+    // margin: 10rem;
+    color: black;
+
+}
+.testFields {
+    display: flexbox;
+    // grid-template-rows: 1fr 1fr 1fr;
+
+    color: black !important;
+    // height: 100%;
+    height: 85%;
+    // justify-content: space-around;
+    place-content: end space-between;
+    overflow-y: auto;
+    padding: 2rem 0rem;
+
+}
+.deleteTextPadd{
+    padding-top: 20px;
+    font-size: 14px;
+}
+.deleteHeader{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1024px) {
+    .testFieldsModalWrapper{
+        padding: 200px 20px;
+
+    }
+}

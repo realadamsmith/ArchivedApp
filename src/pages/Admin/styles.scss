@@ -1,0 +1,565 @@
+.admin {
+  // padding: 0 10px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+
+  // grid-template-columns: 1fr 1fr;
+  // grid-template-rows: 1fr 1fr;
+
+  // float: right;
+  .AddNewProductBtns{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .modal {
+    border-radius: 10px;
+    margin-bottom: 5rem;
+  }
+  .ExtraField1{
+    width: 50%;
+  }
+  .field {
+    background-color: white;
+    border-radius: 5px;
+    // margin-bottom: .5rem !important;
+  }
+  input[type="file"] {
+    // display: none;
+}
+.MarginPrice{
+  margin-right: 2rem !important;
+}
+.FullSize{
+  margin-left: 2rem;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 0.8fr auto ;
+  font-size: 14px;
+// max-width: 200px;
+
+}
+.aUpload{
+  margin-top: 10px;
+  font-size: 16px;
+}
+.videoUploadBackground{
+  padding: 10px;
+  background: white;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    // display: inline-block;
+    padding: 0px 5px;
+
+    cursor: pointer;
+  border-radius: 10px;
+  // position: absolute;
+  background: #e0e9f2;
+  max-width: 22rem;
+  // margin-top: 1.5rem;
+  overflow: hidden;
+    font-size: 15px;
+    height: 100%;
+}
+.custom-file-upload-loaded{
+  background: #a4e2af;
+
+}
+.VideoUploadButton{
+  display: flex;
+
+}
+
+.GridOfFieldAndSubmitButton{
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  place-items: center;
+  margin: 0px !important;
+  div{
+    padding: 0px;
+    // &hover{
+    //   background: #a4e2af;
+    // }
+  }
+}
+.Justwhatever{
+  // padding-left: 10px;
+  // text-align: center;
+  // margin-left: 16.4px;
+  // font-size: 18px;
+  place-items: center;
+  vertical-align: middle;
+ line-height: 50px;
+  height: 100%;
+  z-index: 999999;
+  text-align: center;
+  width: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
+  // background: rgb(21, 78, 117);
+  // :hover{
+  //   background: #ceb9b9;
+  // }
+}
+.UploadButton{
+  background: transparent;
+  place-items: center;
+  vertical-align: middle;
+ line-height: 50px;
+ color: white;
+  z-index: 999999;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  // padding: 1rem;
+  place-items: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+  // padding: 0px;
+  margin: 0px !important;
+  background: #1D62A6;
+  :hover{
+    background: rgb(18, 55, 98);
+  }
+}
+.IconVideoReviewButton{
+  color: black;
+  height: 35px;
+width: 35px;
+padding: 0px;
+margin-top: 11px;
+}
+.EditItemModal{
+  background: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  // color: red;
+  width: 97%;
+  padding: 1.75rem;
+  max-width: 80rem;
+  height: auto;
+  // min-height: 40rem;
+  pointer-events: all;
+  z-index: 9999;
+  max-height: 88vh ;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border-radius: 7px;
+}
+
+.ActualHolderoftheDropdown{
+  position: relative;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ccdff0;
+  color: rgb(34, 34, 34);
+
+  // min-width: 10rem;
+  padding: 13px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.ActualHolderoftheDropdown:hover{
+  background-color: #2179ec;
+  color: rgb(255, 255, 255);
+  transition: 100ms;
+}
+.ClickAnywhereResetStates{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  min-height: 2000px !important;
+  height: 100%;
+  background-color: rgba(220, 220, 220, 0.3);
+}
+/* Dropdown Content (Hidden by Default) */
+.singleDropdownShow{
+  position: absolute;
+  display: inline-block;
+  // margin-top: 1rem !important;
+  margin-left: 6rem !important;
+  // margin-right: auto !important;
+  background-color: #e9ecef;
+  color: rgb(34, 34, 34);
+  min-width: 251.979px;
+  box-shadow: 0px 2px 20px rgba(34, 90, 89, 0.2);
+
+  // min-width: 10rem;
+  // padding: 10px 0px 0px 10px;
+  padding-left: 0px;
+  font-size: 1.6rem;
+  z-index: 10000;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 4px;
+
+}
+.singleDropdownShow div{
+  // padding: 1.5rem;
+  height: 5rem;
+  // margin: 2.0rem;
+  // margin-top: 2.5rem;
+  // margin-bottom: 2.5rem;
+  vertical-align: middle !important;
+  line-height: 5rem;
+  // background: cyan;
+  border-bottom: rgb(223, 227, 230) 1px solid;
+  text-align: center;
+}
+.singleDropdownShow div:hover{
+  background-color: #cfdeec;
+  color: black;
+  transition: 200ms;
+}
+.ActualHolderoftheDropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 251.979px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-weight: 400;
+  margin-left: 2rem;
+
+}
+// .ActualHolderoftheDropdown-content div:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.ActualHolderoftheDropdown:hover .ActualHolderoftheDropdown-content {
+  // display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.ActualHolderoftheDropdown:hover .dropbtn {
+  background-color: #326ba1;
+  color: black;
+  transition: 200ms;
+}
+.AdminDropButton{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e8e8e8;
+  color: rgb(34, 34, 34);
+  // min-width: 10rem;
+  padding: 13px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.MarginPrice{
+  margin-right: 10px;
+}
+  .ColorRow{
+    width: 100%;
+    height: 100%;
+    // background: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+  }
+  .ColorRow input{
+  //  padding: 0px 30px;
+   margin-left: 1.7rem;
+   margin-right: 4px;
+   transform: scale(1.6);
+ }
+ .ColorRow input[type='checkbox']{
+  color: #b06262;
+ }
+
+
+  .gridAddProducts{
+    // margin: 0 auto;
+    margin-top: 10px;
+    max-height: 4rem;
+    width: 40%;
+
+  }
+  .ClickableField{
+    cursor: pointer;
+    :hover{
+      background: #e7eff3;
+    }
+  }
+  .ClickableField:hover{
+      background: #e7eff3;
+  }
+  .ClickableField:active{
+      background: #d5e9f4;
+  }
+  .gridAddProducts2{
+    margin-top: 10px;
+
+    max-height: 6rem !important;
+width: 40%;
+  }
+}
+
+.addNewProductForm{
+  h2{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
+.PaySummary {
+  // width: 400px;
+  min-height: 20rem;
+  border: 1px solid rgb(206, 206, 206);
+  // margin-top: 10px;
+  // margin-left: 10px;
+  padding: 0;
+  // flex-grow: 1;
+  p {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center; // Works with <p>
+    margin: 1rem;
+  }
+}
+.SummaryGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+// .ExpectedPayouts {
+//   // display: grid;
+//   height: 14rem !important;
+//   width: 20rem;
+//   font-size: 4rem;
+//   // background: salmon;
+//   border: 1px solid rgb(206, 206, 206);
+//   margin-left: 4rem;
+//   border-radius: 7px;
+
+//   .Value {
+//     margin-top: 3rem !important;
+//   }
+// }
+.PHeader{
+    margin-top: 4.5rem !important;
+    // margin-bottom: auto !important;
+    // vertical-align: bottom !important;
+    // background: rgb(163, 161, 53);
+    border: none;
+    border-radius: 12px;
+    min-width: 200px;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    position: relative;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    // box-shadow: 0 2px 7px 3px rgba(0, 0, 0, 0.156);
+
+    // width: 100%;
+}
+
+
+
+.SellerSummary {
+  position: relative;
+  height: 3.8rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background: #1D62A6;
+  color: rgb(255, 255, 255);
+  // box-shadow: 0 2px 7px 3px rgba(0, 0, 0, 0.156);
+  // font-weight: 500;
+  border-radius: 10px;
+  // border: 1px solid black;
+
+  display: block;
+
+  // transform: translateY(-4px);
+  // transition:
+  // transform
+  // 600ms
+  // cubic-bezier(.3, .7, .4, 1);
+  // https://www.joshwcomeau.com/animation/3d-button/
+}
+.PHeader:active .SellerSummary {
+  background: #0661d8;
+  transition: 100ms;
+
+  // transform: translateY(-2px);
+  // transition: transform 34ms;
+}
+.PHeader:hover .SellerSummary {
+  background: rgb(52, 132, 236);
+  transition: 100ms;
+  // transform: translateY(-6px);
+  // transition:
+  //   transform
+  //   250ms
+  //   cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.Dimensiondiv{
+  width: 30%;
+  display: inline-block;
+  height: 85px;
+  justify-content: space-between;
+  margin-left: 3%;
+}
+.Dimensiondiv2{
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  height: 85px;
+  justify-content: space-between;
+  margin-left: 3%;
+}
+
+.manageProducts {
+  h2 {
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  border: 1px solid rgb(206, 206, 206);
+  width: 100% !important;
+  margin-top: 10px;
+  padding: 10px;
+  min-width: 955px;
+
+  table {
+    width: 100%;
+  }
+
+  table.results {
+    width: 100%;
+
+    tr {
+      td {
+        height: 50px;
+        padding: 2px;
+        // margin-right: 2rem;
+      }
+      &:nth-child(even) {
+        background-color: #efefef;
+                  // box-shadow: 0px 2px 20px rgba(34, 90, 89, 0.2);
+
+      }
+
+      .thumb {
+        margin-right: 15px;
+        height: 75px;
+        min-width: 75px;
+        // border-radius: 6%;
+        // height: auto;
+      }
+    }
+  }
+}
+
+//
+//                ███╗░░░███╗░█████╗░██████╗░██╗██╗░░░░░███████╗
+//                ████╗░████║██╔══██╗██╔══██╗██║██║░░░░░██╔════╝
+//                ██╔████╔██║██║░░██║██████╦╝██║██║░░░░░█████╗░░
+//                ██║╚██╔╝██║██║░░██║██╔══██╗██║██║░░░░░██╔══╝░░
+//                ██║░╚═╝░██║╚█████╔╝██████╦╝██║███████╗███████╗
+//                ╚═╝░░░░░╚═╝░╚════╝░╚═════╝░╚═╝╚══════╝╚══════╝
+//
+
+@media only screen and (max-width: 1024px) {
+  .admin {
+    display: grid;
+    grid-template-rows: 1fr !important;
+    grid-template-areas:
+      "manageProducts"
+      "PaySummary";
+  }
+  .thumb {
+    width: 90px;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  .ExpectedPayouts {
+    // display: grid;
+    height: 14rem !important;
+    width: 20rem;
+    font-size: 4rem;
+    // background: salmon;
+    border: 1px solid rgb(206, 206, 206);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    // margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+    .Value {
+      margin-top: 3rem !important;
+    }
+  }
+  .ActualHolderoftheDropdown{
+    // margin-left: 50% !important;
+    width: 100%;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .gridAddProducts{
+    max-height: 6rem !important;
+  }
+  .manageProducts {
+    min-width: 0%;
+    table {
+      width: 100%;
+
+      .results {
+        width: 100%;
+
+        tr td {
+          display: block;
+          width: 100%;
+          height: 0%;
+          padding-bottom: 0.75rem;
+
+          &:nth-child(3) {
+            font-weight: 600;
+          }
+
+          img {
+            display: block;
+            width: 100% !important;
+            // max-width: 300px;
+            object-fit: contain;
+          }
+        }
+        td{
+          padding-left: 2px !important;
+          // padding: 0px !important;
+        }
+      }
+    }
+  }
+  .EditItemModal{
+    margin-top: 4rem;
+    max-height: 70vh !important;
+  }
+}

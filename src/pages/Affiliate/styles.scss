@@ -1,0 +1,88 @@
+.superAffiliate {
+    justify-content: center !important;
+    align-items: center !important;
+    width: 1100px;
+    align-content: center !important;
+    padding: 50px;
+    // box-sizing: border-box;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    // font-family: "sofiapro-regular", PingFangSC, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    // box-shadow: 0px 2px 20px rgba(34, 90, 89, 0.2);
+    border: 1px solid black !important;
+    // border-radius: 8px;
+
+    transition: box-shadow 200ms ease;
+    display: block;
+    color: #000000;
+    // flex: 0 0 50%;
+    padding: 12rem 10rem 18rem 9rem;
+    // border: 1px solid black !important;
+
+}
+.ListOfLinks{
+    margin-left: 3rem;
+    margin-top: 50px;
+    padding: 1rem;
+    // border-right: 1px solid grey;
+    list-style-type: none;
+    background: rgb(225, 228, 231);
+    // font-size: 14px;
+    a{
+        color: #1c5e9c !important;
+    }
+    li{
+        margin-top: 1rem;
+        height: 2rem;
+        // text-align: center;
+        // align-items: center;
+    }
+    li:hover{
+        background-color: rgb(202, 205, 207);
+        border-radius: 2px;
+        border-top: 40px;
+        transition: 100ms;
+    }
+}
+
+.ratetable{
+    -webkit-text-size-adjust: 100%;
+    line-height: 19px;
+    color: #111;
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    border-color: #232f3e !important;
+    width: 100%;
+    border-collapse: collapse;
+    // display: table-row;
+    td{
+        padding-left: 13.8rem;
+    }
+}
+
+.SpacerForAffiliate{
+    height: 300px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ListOfLinks{
+      display: none;
+  }
+  .superAffiliate {
+  padding: 4rem;
+  padding-top: 7rem;
+  width: auto;
+  font-size: 14px;
+}
+}

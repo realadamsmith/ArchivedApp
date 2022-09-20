@@ -1,0 +1,172 @@
+.RecordNow {
+    // height: 700px;
+    // width: 400px;
+    // display: block;
+    // position: relative;
+    // background: rgb(255, 253, 189);
+
+    // margin-left: auto;
+    // margin-right: auto;
+    // margin-top: 50px;
+    // padding: 10px;
+    overflow: hidden;
+}
+.Clips{
+    // display: inline-block;
+    // // position: relative;
+    // width: 100vw;
+    // height: 100vh;
+    // overflow: hidden;
+    z-index: 9999;
+
+}
+
+.FlipCameraRow{
+    position: absolute;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 4rem;
+    left: 82%;
+    bottom: 72%;
+    z-index: 99999;
+    width: 8rem;
+    height: auto;
+    color: rgb(244, 248, 236);
+    // border-radius: 5999px;
+    // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+    // background: white;
+    // background: url(//static.coupangcdn.com/image/coupang/main/bg_main_sprite_200218.png)
+}
+.FlipCamera{
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    color: rgb(244, 248, 236);
+}
+.IconSize{
+    // position: relative;
+    width: 7rem;
+    height: 3.1rem;
+    // cursor: pointer;
+    // color: rgb(244, 248, 236);
+}
+.Timer{
+    position: relative;
+//    background:rgb(255, 106, 108);
+}
+.DissapearAfterClick{
+    background-color: rgba(255, 255, 255, 0.67);
+    color: rgb(250, 239, 239);
+    border-radius: 5999px;
+    // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    // font-size: 100px;
+    cursor: pointer;
+    // transform: scale(4);
+    height: 60px;
+    width: 60px;
+    // left: 43%;
+
+        bottom: 4%;
+    z-index: 99999;
+    -webkit-backface-visibility: hidden;
+}
+.btn1Clips{
+
+    background-color: rgba(255, 255, 255, 0.67);
+    color: rgb(250, 239, 239);
+    border-radius: 5999px;
+    // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    // font-size: 100px;
+    cursor: pointer;
+    // transform: scale(4);
+    height: 60px;
+    width: 60px;
+    left: 43%;
+
+        bottom: 4%;
+    z-index: 99999;
+    -webkit-backface-visibility: hidden;
+
+    // -ms-transform: scale(4); /* IE 9 */
+    // -webkit-transform: scale(4); /* Chrome, Safari, Opera */
+    // transform: scale(4);
+    // opacity: 100%;
+
+    // transform: rotate(0.00000000001deg);
+    // transform: translate(9000%, -20%);
+    // background: url(https://fonts.googleapis.com/css?family=Material+Icons+Radio+Button+Unchecked)
+}
+.btn2Clips{
+    background-color: salmon;
+    color: rgb(255, 49, 49);
+    border-radius: 5999px;
+    // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    // font-size: 100px;
+    cursor: pointer;
+    // transform: scale(4);
+    height: 60px;
+    width: 60px;
+    left: 43%;
+    bottom: 4%;
+    z-index: 99999;
+    -webkit-backface-visibility: hidden;
+    // -ms-transform: scale(4); /* IE 9 */
+    // -webkit-transform: scale(4); /* Chrome, Safari, Opera */
+    // transform: scale(4);
+    // opacity: 100%;
+    // transform: rotate(0.00000000001deg);
+
+}
+.btn2Resume{
+    background-color: rgb(244, 233, 232);
+    color: rgb(255, 49, 49);
+    border-radius: 5999px;
+    // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    // font-size: 100px;
+    cursor: pointer;
+    // transform: scale(4);
+    height: 60px;
+    width: 60px;
+    left: 43%;
+    bottom: 4%;
+    z-index: 99999;
+    -webkit-backface-visibility: hidden;
+}
+.btn3button{
+height: 100%;
+width: 100%;
+}
+
+.btn3Clips{
+    // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    cursor: pointer;
+    // transform: scale(3);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 106, 108);
+    left: 75%;
+    bottom: 4%;
+    z-index: 99999;
+    width: 40px;
+    height: 40px;
+    -webkit-backface-visibility: hidden;
+    // -ms-transform: scale(4); /* IE 9 */
+    // -webkit-transform: scale(4); /* Chrome, Safari, Opera */
+    // transform: scale(4);
+    border-radius: 9999px;
+}
+.Preview{
+    height: 50rem;
+    width: 50rem;
+}
+
+.IconButton{
+    height: 20rem !important;
+    width: 20rem !important;
+}

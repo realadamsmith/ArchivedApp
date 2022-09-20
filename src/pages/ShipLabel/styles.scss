@@ -1,0 +1,178 @@
+.EPFields{
+    min-height: 500px;
+    display: grid;
+    // place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    // background: beige;
+    // padding: 5rem;
+    // margin: 2rem;
+}
+
+.shrink{
+    width: 25%;
+    display: inline-block;
+    margin: 0.6rem;
+}
+
+.borderlabel{
+    // border: 1px solid black;
+    height: 100%;
+    max-height: 720px;
+    width: 100%;
+    padding: 2rem;
+    overflow: auto;
+    overflow-y: scroll; /* Show vertical scrollbar */
+    overscroll-behavior: auto;
+}
+
+.PrintNow{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    a{
+      color:white
+
+    }
+}
+.Shiplabelimport{
+    // margin-left: 5rem;
+
+}
+.shiplabelimport2{
+    // margin-left: 5rem;
+}
+.SpacingPrint{
+  margin-top: 1rem;
+}
+.AddValidated{
+display: grid;
+place-items: center;
+color: rgb(33, 110, 226);
+}
+.gridautofill{
+    display: grid;
+    width: 200px;
+    grid-template-columns: 0.3fr 1.5fr;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.divider90{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.HoldsAllRates{
+  background: rgb(240, 245, 245);
+  height: 90px !important;
+  width: 100% !important;
+  display: grid;
+  color: black;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 18px;
+  font-weight: 500;
+//   align-items: center;
+// vertical-align: middle;
+// justify-content: center;
+&:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+          color: black;
+          transition: all 0.05s ease-in-out;
+          // background: rgb(231, 229, 119);
+          // box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+          box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+          transform: translateY(-0.1em) translateX(-0.2em)
+
+}
+&:focus{
+  background-color: rgba(215, 215, 215, 0.6);
+          color: black;
+          transition: all 0.1s ease-in-out;
+          // background: rgb(231, 229, 119);
+          // box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+          box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+          transform: translateY(-0.1em) translateX(0.5em);
+          outline: 1px solid black;
+
+}
+}
+.EachRatesField{
+  // background: cyan !important;
+  height: 100% ;
+  width: 100px !important;
+  display: grid;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  cursor: pointer;
+
+
+}
+.centerthebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+  }
+  .switch input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  .BuyLabelDetails{
+
+
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 23%;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+    background: rgb(196, 196, 196);
+    transition: 0.4s;
+    border-radius: 34px;
+//    box-shadow: -1px 1px 6px 0px rgb(0 0 0 / 68%);
+  }
+  .slider:before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background:#656464e8;
+    left: 6px;
+    bottom: 5px;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.42, 0, 0, 1.68);
+  }
+  input:checked + .slider {
+    background-color: #f3fd97;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(32px);
+    background:rgb(53, 53, 49);
+  }
+
+
+@media only screen and (max-width: 1024px) {
+    .EPFields{
+       display: grid;
+      //  grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr !important;
+
+
+    }
+    .shrink{
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+}

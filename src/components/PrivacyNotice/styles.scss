@@ -1,0 +1,26 @@
+.privacyContent {
+    justify-content: center !important;
+    align-items: center !important;
+    width: 1100px;
+    align-content: center !important;
+    padding: 50px;
+    // box-sizing: border-box;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    // font-family: "sofiapro-regular", PingFangSC, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    box-shadow: 0px 2px 20px rgba(34, 90, 89, 0.2);
+    border-radius: 8px;
+    transition: box-shadow 200ms ease;
+    display: block;
+    color: #000000;
+    // flex: 0 0 50%;
+    padding: 12rem 10rem 18rem 9rem;
+    // border: 1px solid black !important;
+}

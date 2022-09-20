@@ -1,0 +1,29 @@
+.video {
+    position: relative;
+    display: block;
+    // background-color: white;
+    width: 100%;
+    height: 100%;
+    // scroll-snap-align: start; // No Need because on EachVidWrapper anyway
+
+}
+.video_player {
+    background-color: black;
+    // height: 100vh;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 1rem;
+    position: relative;
+    display: block;
+    // background-color: white;
+    width: 100%;
+    height: 100%;
+    // scroll-snap-align: start;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .video_player {
+       border-radius: 0rem;
+    }
+}

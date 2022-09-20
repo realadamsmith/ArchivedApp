@@ -1,0 +1,31 @@
+.video_play_button {
+    position: absolute;
+    color: white;
+    left: 38%;
+    bottom: 35%;
+    text-align: center;
+    // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+}
+.video_play_button > .MuiSvgIcon-root {
+    font-size: 10rem !important;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+.video_play_button {
+    position: relative;
+    color: white;
+    bottom: 55%;
+    left: auto;
+    text-align: center;
+    // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+}
+.video_play_button > .MuiSvgIcon-root {
+    font-size: 10rem !important;
+    cursor: pointer;
+}
+}

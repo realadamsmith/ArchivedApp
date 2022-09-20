@@ -1,0 +1,51 @@
+.btn2 {
+    // display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    min-height: 3rem;
+    line-height: 1;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+color: rgb(0, 0, 0);
+background: rgb(255, 255, 255);
+padding: 1rem 10px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 25px;
+    outline: 3px solid black;
+    cursor: pointer;
+
+    transition: all 0.2s;
+    // box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+    // box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn2:hover,
+.btn2:focus {
+    // box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+    // box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background: rgb(0, 0, 0);
+    color: white;
+    transition: 200ms;
+
+    // transform: translateY(-0.15em);
+    // box-shadow: 0 0.5em 0.5em -0.6em var(--hover); //for raising
+}
+$colors: (
+    // fill: #a972cb,
+    // pulse: #ef6eae,
+    // close: #ff7f82,
+    // raise: #ffa260,
+    // up: #e4cb58,
+    // slide: #8fc866,
+    // btn: #495370
+);
+
+// @each $button, $color in $colors {
+//     .#{$button} {
+//         --color: #{$color};
+//         --hover: #{adjust-hue($color, 100%)};
+//     }
+// }

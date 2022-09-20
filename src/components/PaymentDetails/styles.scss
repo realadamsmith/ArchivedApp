@@ -1,0 +1,147 @@
+.paymentDetails {
+    display: block;
+    width: 100%;
+    max-width: 100rem;
+    padding: 0 1.5rem;
+    margin:  2rem auto;
+    input:-webkit-autofill, // https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+        border: 1px solid rgb(0, 0, 0);
+        -webkit-text-fill-color: rgb(0, 0, 0);
+        -webkit-box-shadow: 0 0 0px 1000px rgb(255, 255, 255) inset;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+    form{
+        display: grid;
+        grid-template-areas: "col-1 col-2";
+        grid-template-areas: "group group2"
+                             "bottomGridForm bottomGridForm"
+                             ;
+        column-gap: 100px;
+        // row-gap: 100px;
+    }
+    .ClipWrapperIncentive2{
+        //   margin-bottom: 1.5rem;
+        background: #d8e0e6;
+        //   padding: 1rem;
+        border-radius: 6px;
+        color: rgb(255, 255, 255) !important;
+        width: 100%;
+          h2{
+            margin-top: 0px;
+        }
+    }
+    // overflow: auto;
+
+    .group {
+        grid-area: group;
+        margin: 0 0 2rem;
+        // width: 40%;
+        // overflow: auto;
+        // background-color: white;
+    }
+    .group2 {
+        grid-area: group2;
+        margin: 0 0 2rem;
+        // width: 40%;
+        // overflow: auto;
+        // background-color: white;
+    }
+    .bottomGridForm{
+        grid-area: bottomGridForm;
+    }
+    .divider91{
+        width: 100%;
+        margin-bottom: 29px;
+    }
+    .MiddleAnnouncement{
+        height: 40px;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        // align-self: center;
+        display:flex;
+        position: relative;
+        // gap: 2rem;
+        // justify-content: center;
+
+        // grid-template-columns: auto auto;
+    }
+    .CenterTextHeaderAnnouncement{
+        color: rgb(255, 255, 255);
+        // margin-left: 32.8% ;
+        display: inline-block;
+        background: #2A4677;
+        border-radius: 20px;
+        padding: 3px 15px;
+        text-align: center;
+                align-self:flex-start;
+
+        width: auto;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formRow {
+        margin-top: 1px;
+    }
+    .order {
+        border-bottom: 1px solid rgb(141, 34, 34);
+        margin-bottom: 20px;
+    }
+    input{
+        // display: block;
+        // // width: 100%;
+        // font-size: 1.5rem;
+        // line-height: 1;
+        // font-weight: 400;
+        // text-align: left;
+        // padding: 10px 5px;
+        // // margin: 10px 0;
+        // border: 1px solid #9e9e9e;
+        // outline: none;
+        // background-color: white;
+        // border-radius: 3px;
+    }
+    .gridCheckbox{
+        display: flex;
+        // grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        margin: 0%;
+
+
+    }
+    .something{
+        margin-right: 0.5rem;
+        color: white;
+        // font-size: 40px;
+    }
+    .getCloser{
+        // width: 100px;
+        // height: 30px;
+        // margin-left: 1000px !important;
+        // margin-top: 40px;
+
+    }
+    @media only screen and (max-width: 1024px) {
+        form{
+            display: block;
+            // grid-template-areas: "col-1 col-2";
+            // grid-template-areas: "group group2"
+            //                      "bottomGridForm bottomGridForm"
+            //                      ;
+            // column-gap: 100px;
+            // row-gap: 100px;
+        }
+        .divider91{
+          display: none;
+        }
+    }
+}

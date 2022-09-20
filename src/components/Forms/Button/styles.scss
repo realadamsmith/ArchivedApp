@@ -1,0 +1,50 @@
+.btn {
+    // display: block;
+    width: 100%;
+    min-height: 3rem;
+    font-size: 1.4rem;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background: #3e7ae1;
+    padding: 1rem 10px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    // box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0 2px 7px 3px rgba(0, 0, 0, 0.156);
+
+    // box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.btn:hover{
+    // box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+    // box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background: #226bb4;
+    transition: 200ms;
+    // box-shadow: 0 2px 7px 3px rgba(0, 0, 0, 0.156);
+
+
+    // transform: scale(1.01);
+    // transform: translateY(-0.15em);
+    // box-shadow: 0 2.5px 8.5px 2.6px rgba(0, 0, 0, 0.1); //for raising
+}
+$colors: (
+    // fill: #a972cb,
+    // pulse: #ef6eae,
+    // close: #ff7f82,
+    // raise: #ffa260,
+    // up: #e4cb58,
+    // slide: #8fc866,
+    // btn: #495370
+);
+
+// @each $button, $color in $colors {
+//     .#{$button} {
+//         --color: #{$color};
+//         --hover: #{adjust-hue($color, 100%)};
+//     }
+// }

@@ -1,0 +1,1119 @@
+.turnOffonMobile{
+position: absolute;
+}
+.Feed {
+    // display: flex;
+    // display: non;
+    // flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    // // display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    // // place-items: end center;
+    // justify-content: center !important;
+    // align-items: center !important;
+    // align-self: center;
+}
+.VidandProductWrapper{
+    display: grid !important;
+    grid-template-columns: 0.65fr 1fr;
+    margin-top: 30px;
+}
+.BatchVids{
+    min-height: 2000px;
+    // margin-bottom: 5000px;
+}
+.BatchContainer{
+    min-height: 2000px;
+}
+.EachVidWrapper {
+
+    height: 650px;
+    width: 400px;
+
+    margin-left: 10rem;
+    margin-right: 1rem;
+
+    // place-items: end center;
+    // justify-content: center !important;
+    // align-items: center !important;
+    // align-self: center;
+    // height: 800px !important;
+    min-height: 300px;
+    // min-width: 900px;
+    margin-top: 50px;
+    // background-color: greenyellow;
+    display: flex;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+}
+
+.SuperButton{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.BottomBoundary{
+    border: 1px solid rgb(56, 84, 140);
+    // height: 3rem;
+    // background: rgb(99, 99, 234);
+}
+.ItemTitle {
+    margin-left: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+// .Clip {
+//     background: rgb(17, 18, 14);
+//     height: 800px;
+//     width: 280px;
+//     margin-left: 50px;
+//     border-radius: 0.5rem;
+
+
+// }
+.TranslateYXDetailsButton{
+    display: none;
+    background: rgb(143, 188, 234);
+    border-radius: 20px;
+    height: 4rem;
+    color: rgb(255, 255, 255);
+    width: 8rem;
+    font-weight: 500;
+    font-size: 14px;
+//    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: center;
+    transform: translate(1rem, 0rem);
+    place-items: center;
+    // display: grid;
+    text-align: center;
+    position: relative;
+}
+.TranslateYXDetailsButtonDesktop{
+    background: rgb(25, 97, 168);
+    border-radius: 20px;
+    height: 3.5rem;
+    color: rgb(255, 255, 255);
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 14px;
+//    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: center;
+    // transform: translate(-65rem, -8rem);
+    place-items: center;
+    display: grid;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.VideoProductImages{
+    display: block;
+    padding: 2rem;
+
+}
+.VideoProductImageSizing{
+    display: block;
+    min-height: 30rem;
+    max-height: 40rem;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ReviewsTokVideosPage {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    // object-fit: cover;
+    // -webkit-box-pack: center;
+    // justify-content: center;
+    // width: 100%;
+    // height: 100%;
+    // object-fit: cover;
+    // margin-right: 100px !important;
+    // margin-top: 10px;
+    // -webkit-animation-play-state: running;
+
+}
+.Clipsearch{
+   display: none !important;
+}
+.Topinteractions{
+  display: none;
+
+}
+.TopInterBackArrow{
+    display: none;
+}
+.interactions{
+    // height: 5rem;
+    // width: 5rem;
+    // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: pointer;
+    // transform: scale(3);
+    // background-color: rgb(255, 255, 255);
+    color: rgb(24, 24, 20);
+    // left: 84%;
+    z-index: 99999;
+    -webkit-backface-visibility: hidden;
+    cursor: pointer;
+    margin-top: 31rem;
+    text-align: center;
+    p{
+        margin-left: 10px;
+        margin-top: 0;
+    }
+}
+.ProductImagesWrap {
+    height: 300px;
+    width: 100px;
+    background: rgb(228, 162, 118);
+    display: inline-block;
+}
+.DesktopVidProduct{
+    // background-color: #8f8f8f;
+    display: grid;
+    grid-template-rows: 0.2fr 0.1fr 1.5fr 0.5fr;
+}
+.VideoProductName{
+    margin: 1rem;
+    font-weight: 600;
+}
+.VideoProductPrice{
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 2.0rem;
+
+}
+.MainExploreOtherBar{
+    display: flex;
+    height: 35px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    place-items: center;
+    background-color: #B7D1EA;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.ThinUnderline{
+    display: block;
+    height: 3px;
+    background-color: rgb(58, 115, 238);
+    margin-top: 4px;
+    border-radius: 2000px;
+}
+.WrapperCommentFloat{
+    position: fixed;
+    height: 40vh;
+    width: 100%;
+    max-width: 900px;
+    bottom: 0%;
+    padding: 10px;
+    z-index: 99999;
+    background-color: white;
+    // top: 20%;
+    border-radius: 20px;
+    overscroll-behavior: contain !important;
+}
+    .WrapperOptionsFloat{
+        position: fixed;
+        height: 22vh;
+        width: 70%;
+        bottom: 8%;
+        padding: 10px;
+        z-index: 9999999999;
+        background-color: white;
+        // top: 20%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        overscroll-behavior: contain !important;
+        border-radius: 20px;
+
+    }
+    .optionsGrid1{
+        display: flex;
+        height: 100px;
+        // background:grey;
+        // padding: 20px;
+        text-align: center;
+        font-size: 13px;
+        color: black;
+
+    }
+    .optionIconsSize{
+        height: 5rem;
+        width: 5rem;
+        color: rgb(228, 228, 228);
+        background-color: rgb(33, 50, 70);
+        border-radius: 20px;
+        padding: 7px;
+    }
+    .optionsGridButtons{
+        height: 8rem;
+        width: 8rem;
+        // background: salmon;
+        border-radius: 20px;
+        margin: 10px;
+        margin-bottom: 4px;
+        margin-top: 5px;
+        // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 2px 20px rgba(34, 90, 89, 0.2);
+        padding: 15px;
+    }
+    .commmentTinyReport{
+        position: absolute;
+        right: 5.5%;
+        top: 47%;
+        color: rgb(34, 47, 58);
+        height: 20px;
+        width: 20px;
+        // background: rgb(218, 218, 218);
+        // border-radius: 20px;
+    }
+.CommentBox{
+    // padding: 10px;
+    height: 28vh;
+// background: beige;
+    overscroll-behavior: contain !important;
+    overflow: auto;
+}
+.commentPadding{
+    padding: 10px;
+    padding-top: 15px;
+    font-size: 14px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+
+    }
+    .userCommentBox1_2{
+        min-width: 93%;
+        transition: all 0.1s;
+        border-radius: 5px;
+        cursor: pointer;
+
+
+    &:active {
+        background-color: rgba(109, 116, 119, 0.317);
+    }
+    &:focus {
+        background-color: rgba(109, 116, 119, 0.317);
+    }
+    }
+.HeaderWrapper{
+    justify-content: space-between;
+}
+.CommentsHeader{
+    position: sticky !important;
+    display: inline-flex;
+    // padding-left: 10px;
+    // padding-top: 10px;
+    // padding-left: 10px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: black;
+}
+.ExitButtonTok{
+    // padding: 10px;
+    // margin-top: 5px;
+    margin-right: 5px;
+    height: 23px;
+    width: 23px;
+    float: right;
+    cursor: pointer;
+    color: black;
+}
+
+.backgroundBehindAddComment{
+    // padding: 20px;
+}
+.commentField{
+    display: inline-flex;
+    position: sticky !important;
+    // margin-bottom: 500px;
+    // bottom: 65%;
+    width: 100%;
+    color: black;
+}
+.CommentInput{
+// height: 20px;
+// line-height: 1;
+display: block;
+width: 95%;
+font-size: 1.5rem;
+font-weight: 400;
+text-align: left;
+padding: 9px;
+margin: 5px auto;
+border: 1px solid #9e9e9e;
+outline: none;
+background-color: white;
+border-radius: 20px;
+color: black;
+}
+
+.sizeOfThumbsUp{
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+
+}
+.sizeOfThumbsUpFilled{
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(240, 115, 93, 0.283);
+    border-radius: 20px;
+}
+.InteractionsIcons{
+    margin-top: 15px;
+    height: 3.5rem;
+    width: 3.5rem;
+    // background-color: rgba(240, 115, 93, 0.283);
+    border-radius: 20px;
+    margin-left: 11px;
+    color: #0d121b;
+}
+.InteractionsIconsFilled{
+    color: rgb(255, 32, 32);
+    margin-top: 15px;
+    height: 3.5rem;
+    width: 3.5rem;
+    // background-color: rgba(240, 115, 93, 0.283);
+    border-radius: 20px;
+    margin-left: 11px;
+}
+.CenterCommentLikes{
+    text-align: center;
+    font-size: 11px;
+    cursor: pointer;
+}
+.commentSubmitArrowButtonInsideBox{
+    position: absolute;
+    right: 2%;
+    top: 45%;
+    color: rgb(64, 154, 232);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.commentSubmitArrowButtonInsideBox2{
+    position: absolute;
+    right: 2%;
+    top: 82%;
+    color: rgb(64, 154, 232);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+
+}
+.ion-hide-md-up{
+    background-color: rgb(0, 42, 255) !important;
+
+}
+// .sc-ion-modal-ios-h{
+//     background-color: rgb(0, 60, 255) !important;
+//     max-width: 700px !important;
+//     min-width: 600px !important;
+
+// }
+.sc-ion-modal-md{
+    // background-color: rgb(17, 18, 22) !important;
+    // max-width: 700px !important;
+    // min-width: 600px !important;
+}
+.reportModalWrapper{
+    padding: 10rem 30rem;
+    // border-radius: 20px;
+}
+.reportUserModalWrapper{
+    // padding: 10rem 30rem;
+    padding: 20rem 50rem;
+
+    // border-radius: 20px;
+}
+// ADD A DIV BASED ON % FOR REPLY/REPORT BAR REFERENCE
+.reportOptions{
+    margin-bottom: 5rem;
+    :hover{
+        background: #e0e0e0;
+        transition: 100ms;
+    }
+    :active,:focus{
+        background: #e0e0e0;
+
+    }
+}
+.reportModalFields{
+    display: flexbox;
+    // grid-template-rows: 1fr 1fr 1fr;
+
+    color: black !important;
+    // height: 100%;
+    height: 85%;
+    // justify-content: space-around;
+    place-content: end space-between;
+    overflow-y: auto;
+    padding: 4rem 2rem;
+
+}
+.reportModalTextHeader{
+    color: black;
+    margin-bottom: 1.5rem;
+    font-size: 2.4rem;
+}
+.reportEachItem{
+    padding: 20px;
+    padding-left: 0%;
+    list-style-type: none;
+    border-bottom: 1px solid #8f8f8f;
+}
+.reportModalPadding{
+    height: 80%;
+    padding: 15px;
+    // width: 80%;
+    background: white;
+    align-self: center;
+    vertical-align: middle;
+    // margin: 10rem;
+    color: black;
+}
+.reportUserModalFields{
+    display: flexbox;
+    // grid-template-rows: 1fr 1fr 1fr;
+
+    color: black !important;
+    // height: 100%;
+    height: 75%;
+    // justify-content: space-around;
+    place-content: end space-between;
+    overflow-y: auto;
+}
+.reportUserModalTextHeader{
+    font-size: 2.4rem;
+    color: black;
+    margin-bottom: 2.5rem;
+    // place-items: center;
+}
+.reportUserModalText{
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+    padding: 20px;
+}
+.reportUserBlockButtonsPadding{
+    margin: 2rem;
+    margin-top: 4rem;
+}
+.modal-wrapper {
+width: 100% !important;
+height: 100% !important;
+}
+
+.ion-overlay-wrapper{
+
+}
+.sc-ion-modal-md{
+
+}
+@media only screen and (max-width: 1024px) {
+    // .wholeApp{
+    //         overflow-y: hidden !important;
+    //     }
+    .turnOffonMobile{
+        display: none !important;
+    }
+    .MainExploreOtherBar{
+        display: none;
+
+    }
+    .Feed{
+        margin: 0px !important;
+        height: 100vh; // IMPORTANT FOR THE BOTTOM OF FEED
+        width: 100vw;
+        overflow-y: scroll !important; // IMPORTANT
+        // z-index: 99999;
+        overscroll-behavior: contain !important;
+        scroll-snap-type: y mandatory;
+        position: relative;
+        // scroll-snap-stop: always
+    }
+
+    .DesktopVidProduct{
+        display: none;
+    }
+    .BatchVids{
+        min-height: 100%;
+        // margin-bottom: 5000px;
+        position: relative;
+
+    }
+    .BottomBoundary{
+        border: 1px solid rgba(56, 84, 140, 0);
+        width: 100%;
+        position: absolute;
+        bottom: 300px;
+        z-index: 500000000;
+    }
+    .VideoProductImages{
+display: none;
+    }
+    .TokReviewpg {
+        height: 100%;
+        min-height: 1000px;
+        width: 100%;
+        background: rgb(95, 86, 175);
+        // display: flex;
+        margin: 0;
+        // scroll-snap-type: y mandatory;
+        // overflow-y: scroll !important;
+        // scroll-snap-align: start;
+    }
+
+    .ItemTitle {
+        display: none;
+        margin-left: 2rem;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .ReviewsTokVideosPage {
+        display: none;
+    }
+
+    .TopInterBackArrow{
+        display: block;
+        height: 30px;
+        width: 30px;
+        // background-color: rgba(240, 115, 93, 0.283);
+        border-radius: 20px;
+        color: white;
+        // margin-left: 0.25rem;
+    }
+    .Topinteractions{
+        position: fixed;
+        cursor: pointer;
+        display: grid;
+        // gap: 0.3rem;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            " TopInterBackArrow FeedHolder"
+            ". ReviewSearch"
+        ;
+
+        color: rgba(255, 255, 255, 0.742);
+        left: 3%;
+        bottom: 87%;
+        font-weight: 500;
+        width: 94%;
+        // margin-top: 300px;
+        z-index: 99000000999;
+
+    }
+
+    .FeedHolder{
+        place-items: center;
+        display: flex;
+        gap: 2rem;
+        // grid-template-columns: 1fr 1fr ;
+        margin-right: 3rem;
+        // font-size: 15px;
+    }
+    .ReviewSearchIcon{
+        display: block !important;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.892);
+        height: 35px !important;
+        width: 35px !important;
+        margin-left: 17rem;
+        justify-self: end;
+        // margin-bottom: 5px;
+    }
+    .smallDisplayName{
+        font-size: 12px;
+        color: #727272;
+    }
+
+    .Random{
+        font-weight: 800;
+    }
+    .VidandProductWrapper{
+        display: block;
+        grid-template-columns: none ;
+        margin-top: 20px;
+    }
+    .EachVidWrapper {
+        height: 100vh !important;
+        // min-height: 300px;
+        // min-width: 900px;
+        width: auto !important;
+        margin: 0px;
+        margin-left: 0px;
+        display: flex;
+        position: relative;
+        object-fit: cover !important;
+        // position: relative !important;
+        // scroll-snap-type: y mandatory;
+        // overflow-y: scroll !important;
+        overscroll-behavior: contain;
+        // scroll-behavior: smooth !important;
+        // scroll-snap-align: start;
+        scroll-snap-align: start;
+        scroll-snap-stop: always !important;
+
+    }
+
+    .interactions{
+
+        padding: 0.5rem 2rem;
+        justify-content: flex-end;
+        cursor: pointer;
+        position: absolute;
+        height: 10vh;
+        width: 100%;
+        bottom: 0%;
+        gap: 1.25rem;
+        display: flex;
+        background-color: rgb(17, 20, 24);
+        color: rgb(255, 255, 255);
+        // left: 84%;
+        // z-index: 9999999;
+        -webkit-backface-visibility: hidden;
+        cursor: pointer;
+        // border-radius: 9999px;
+        text-align: center;
+        p{
+            margin-left: 10px;
+            margin-top: 0;
+        }
+    }
+    .TranslateYXDetailsButtonDesktop{
+    display: none;
+    }
+    .TranslateYXDetailsButton{
+        background: #373c3f00;
+        border-radius: 10px;
+        height: auto;
+        height: 12rem;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 14px;
+        width: 100%;
+        // box-shadow: 0px 2px 20px rgba(34, 90, 89, 0.2);
+
+    //    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        // align-self: center;
+        transform: translate(0rem, -11rem);
+        // place-items: center;
+        display: grid;
+        grid-template-columns: 0.15fr 1fr;
+        // text-align: center;
+        position: relative;
+        padding: 0.2rem;
+    }
+    .DescPadding{
+        padding: 0rem 1rem;
+    }
+    .alignself{
+        position: relative;
+        display: grid;
+        margin: auto;
+        align-self: center;
+        text-align: center;
+
+    }
+    .ImageBorderRadius{
+        border-radius: 10px;
+        box-shadow: 0px 2px 20px rgba(34, 90, 89, 0.2);
+        // object-fit: cover;
+        height: auto;
+        width: auto;
+        max-height: 10rem;
+        max-width: 8rem;
+    }
+    .MobileVidProductThumbnail{
+    //    padding: 2px;
+    max-width: 8rem;
+    height: auto;
+    max-height: 12rem;
+    }
+    .MobileVidProductDesc{
+        color: white;
+        align-self: flex-end;
+        margin-bottom: 2rem;
+        font-size: 1.65rem;
+        width: 100%;
+        word-break:normal;
+    }
+    .InteractionsBottomBarWrapper{
+
+    }
+    .InteractionsIcons{
+        margin-top: 0px;
+        height: 3.5rem;
+        width: 3.5rem;
+        // background-color: rgba(240, 115, 93, 0.283);
+        border-radius: 20px;
+        margin-left: 11px;
+        color: white;
+
+    }
+    .InteractionsIconsFilled{
+        color: rgb(255, 32, 32);
+        margin-top: 0px;
+
+        height: 3.5rem;
+        width: 3.5rem;
+        // background-color: rgba(240, 115, 93, 0.283);
+        border-radius: 20px;
+        margin-left: 11px;
+    }
+    .InteractionsButtons{
+        cursor: pointer;
+        font-size: 1.3rem;
+        font-weight: 600;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+        // background:rgb(87, 86, 86)
+        margin: 0;
+        margin-right: 0.25rem;
+        margin-left: 0.25rem;
+        height: 20px;
+        padding: 0;
+
+
+    }
+
+    .optionsHeader{
+        width: 100%;
+        height: 3rem;
+    }
+    .optionsGrid1{
+        display: flex;
+        height: 100px;
+        // background:grey;
+        // padding: 20px;
+        text-align: center;
+        font-size: 13px;
+
+    }
+    .optionsGridButtons{
+        height: 8rem;
+        width: 8rem;
+        // background: salmon;
+        border-radius: 20px;
+        margin: 10px;
+        margin-bottom: 4px;
+        margin-top: 5px;
+        // box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 2px 20px rgba(34, 90, 89, 0.2);
+        padding: 18px;
+    }
+    .optionIconsSize{
+        height: 4rem;
+        width: 4rem;
+        color: rgb(228, 228, 228);
+        background-color: #2A4677;
+        border-radius: 20px;
+        padding: 7px;
+    }
+    .reportModalWrapper{
+        padding: 20px;
+        padding-top: 5rem;
+        // border-radius: 20px;
+    }
+    // ADD A DIV BASED ON % FOR REPLY/REPORT BAR REFERENCE
+    .reportUserModalWrapper{
+        padding: 15rem 5rem 15rem 5rem;
+    }
+    .reportModalPadding{
+        height: 100%;
+        padding: 15px;
+        background: white;
+    }
+
+    .reportModalFields{
+        display: flexbox;
+        // grid-template-rows: 1fr 1fr 1fr;
+
+        color: black !important;
+        // height: 100%;
+        height: 85%;
+        // justify-content: space-around;
+        place-content: end space-between;
+        overflow-y: auto;
+            padding: 1rem 0.5rem;
+
+    }
+
+    .reportModalTextHeader{
+        color: black;
+        margin-bottom: 1.5rem;
+    }
+    .reportUserModalTextHeader{
+        font-size: 20px;
+        color: black;
+        margin-bottom: 1.5rem;
+        // place-items: center;
+    }
+    .reportUserBlockButtonsPadding{
+        margin: 5px;
+    }
+    .reportModalText{
+        color: rgb(65, 65, 65);
+        font-size: 14px;
+        margin-bottom: 5rem;
+    }
+    .reportUserModalText{
+        color: rgb(65, 65, 65);
+        font-size: 16px;
+        padding: 20px;
+    }
+    .reportOptions{
+        margin-bottom: 5rem;
+        :hover{
+            background: #e0e0e0;
+            transition: 100ms;
+        }
+        :active,:focus{
+            background: #e0e0e0;
+
+        }
+    }
+
+    .commmentTinyReport{
+        position: absolute;
+        right: 9%;
+        top: 45%;
+        color: rgb(34, 47, 58);
+        height: 20px;
+        width: 20px;
+        // background: rgb(218, 218, 218);
+        // border-radius: 20px;
+    }
+    .reportEachItem{
+        padding: 20px;
+        padding-left: 0%;
+        list-style-type: none;
+        border-bottom: 1px solid #8f8f8f;
+    }
+
+
+    .WrapperCommentFloat{
+        position: absolute;
+        height: 40vh;
+        width: 100%;
+    //     max-width: 900px;
+
+        // bottom: 0%;
+        padding: 10px;
+        z-index: 999999999999;
+        background-color: white;
+        // top: 20%;
+        border-radius: 0px;
+
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        overscroll-behavior: contain !important;
+
+    }
+    .WrapperOptionsFloat{
+        position: absolute;
+        height: 22vh;
+        width: 100%;
+        bottom: 0%;
+        padding: 10px;
+        z-index: 9999999999;
+        background-color: white;
+        // top: 20%;
+        border-radius: 0px;
+
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        overscroll-behavior: contain !important;
+    }
+
+    .HeaderWrapper{
+        justify-content: space-between;
+    }
+    .CommentsHeader{
+        position: sticky !important;
+        display: inline-flex;
+        // padding-left: 10px;
+        // padding-top: 10px;
+        // padding-left: 10px;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+    .ExitButtonTok{
+        // padding: 10px;
+        // margin-top: 2px;
+        margin-right: 4px;
+        height: 23px;
+        width: 23px;
+        float: right;
+        cursor: pointer;
+    }
+    .CommentBox{
+        // padding: 10px;
+        height: 28vh;
+    // background: beige;
+        overscroll-behavior: contain !important;
+        overflow: auto;
+    }
+    .backgroundBehindAddComment{
+        // padding: 20px;
+    }
+    .commentField{
+        display: inline-flex;
+        position: sticky !important;
+        // margin-bottom: 500px;
+        bottom: 1.2%;
+        width: 100%;
+        // margin-bottom: 2rem;
+
+    }
+    .CommentInput{
+    // height: 20px;
+    // line-height: 1;
+    display: block;
+    width: 95%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    // padding: 9px;
+    // margin: 5px auto;
+    // border: 1px solid #9e9e9e;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+    }
+
+    .commentPadding{
+    padding: 10px;
+    padding-top: 15px;
+    transition: all 0.1s;
+    font-size: 14px;
+    border-radius: 15px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+
+
+    }
+    .userCommentBox1_2{
+        min-width: 93%;
+        border-radius: 5px;
+        transition: all 0.1s;
+        color: black !important;
+
+        &:active {
+            background-color: rgba(109, 116, 119, 0.317);
+        }
+        &:focus {
+            background-color: rgba(109, 116, 119, 0.317);
+        }
+    }
+    .sizeOfThumbsUp{
+        margin-top: 5px;
+        height: 20px;
+        width: 20px;
+        color: black;
+    }
+    .CenterCommentLikes{
+        text-align: center;
+        font-size: 11px;
+        margin-left: 5px;
+        color: black;
+
+    }
+    .commentSubmitArrowButtonInsideBox{
+        position: absolute;
+        right: 2%;
+        top: 45%;
+        color: rgb(64, 154, 232);
+        height: 20px;
+        width: 20px;
+    }
+    .commentSubmitArrowButtonInsideBox2{
+        position: absolute;
+        right: 2%;
+        top: 82%;
+        color: rgb(64, 154, 232);
+        height: 20px;
+        width: 20px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .TranslateYXDetailsButton{
+        transform: translate(-1rem, -11rem);
+    }
+}
+@media only screen and (max-width: 800px) {
+    .TranslateYXDetailsButton{
+        transform: translate(-1rem, -11rem);
+    }
+}
+@media only screen and (max-width: 700px) {
+    .TranslateYXDetailsButton{
+        transform: translate(-1rem, -11rem);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .TranslateYXDetailsButton{
+        transform: translate(-1rem, -11rem);
+    }
+}
+@media only screen and (max-width: 500px) {
+    .TranslateYXDetailsButton{
+        transform: translate(-1rem, -11rem);
+    }
+}
+@media only screen and (max-width: 450px) {
+    .TranslateYXDetailsButton{
+        transform: translate(0rem, -11rem);
+    }
+}
+@media only screen and (max-width: 400px) {
+    .TranslateYXDetailsButton{
+        transform: translate(0rem, -11rem);
+    }
+}
+@media only screen and (max-width: 375px) {
+    .TranslateYXDetailsButton{
+        transform: translate(0rem, -11rem);
+    }
+}
+@media only screen and (max-width: 350px) {
+    .TranslateYXDetailsButton{
+        transform: translate(0rem, -11rem);
+    }
+}
+@media only screen and (max-width: 300px) {
+    .TranslateYXDetailsButton{
+        transform: translate(0rem, -11rem);
+    }
+}
+
+
+
+

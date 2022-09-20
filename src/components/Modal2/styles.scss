@@ -1,0 +1,53 @@
+.modalOverlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    // min-height: 2000px !important;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.057);
+}
+
+.modal2 {
+    position: fixed;
+    top: 82%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -55%);
+    -moz-transform: translate(-50%, -55%);
+    transform: translate(-50%, -55%);
+    background-color: rgb(255, 255, 255);
+    // color: red;
+    width: 100%;
+    padding: 1.75rem;
+    max-width: 80rem;
+    height: auto;
+    // min-height: 40rem;
+    pointer-events: all;
+    z-index: 99999999;
+    max-height: 88vh ;
+    overflow: auto;
+    overscroll-behavior: contain;
+    border-radius: 20px;
+
+}
+// .cke_inner{
+//     height: 20rem !important;
+// }
+// .cke_reset{
+//     height: 20rem !important;
+// }
+.ExitButton{
+    // top: 50%;
+    // left: 100%;
+    float: right;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    .modal {
+    max-height: 75vh;
+
+    }
+
+
+}

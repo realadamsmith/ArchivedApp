@@ -1,0 +1,502 @@
+.productCard {
+  max-width: 150rem;
+  margin: 0 auto 4rem;
+  display: flex;
+}
+.LeftSideImages {
+  display: flex;
+  // background: grey;
+  min-width: 60rem;
+  max-width: 80rem;
+  margin: 2rem 2rem 0 0.1rem;
+  // max-height: 70rem;
+  justify-content: center;
+  position: relative;
+  // grid-template-rows: 0.25fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+img {
+  display: block;
+  // margin: auto;
+  // max-width: 100%;
+  // // height: 100%;
+  // margin-right: 1rem;
+  // margin-left: auto;
+  // margin-right: auto;
+  // object-fit: contain !important;
+}
+
+.BigPicture {
+  display: block;
+  // position: absolute;
+  vertical-align: middle;
+  // transform: translate(0, 50%)
+  max-height: 55rem;
+}
+.SliderOfProdImages {
+  // display: block;
+  // height: 50px;
+  // width: 50px;
+  // width: 50%;
+  display: flex;
+  gap: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  margin-top: 3px;
+}
+.eachSlideImage {
+  height: auto; // Or else Mobile will have huge backgrounds
+  width: 70px;
+  cursor: pointer;
+  background-color: rgb(236, 242, 247);
+  border-radius: 8px;
+  padding: 0.5px;
+  align-items: center;
+  align-self: center;
+  // box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+  img {
+    border-radius: 10px;
+  }
+}
+
+.adjustZoom {
+}
+
+.laurenashpoleFile {
+  .iiz {
+    max-width: 100%;
+    margin: 0;
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+  }
+
+  .iiz--drag .iiz__zoom-img--visible {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+
+  .iiz__img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    pointer-events: none;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .iiz__img--hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .iiz__img--abs {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+  .iiz__zoom-img {
+    width: auto !important;
+    max-width: none !important;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+
+    pointer-events: none;
+    display: block;
+    z-index: 100000000;
+  }
+
+  .iiz__zoom-img--visible {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+    -ms-touch-action: none;
+    touch-action: none;
+  }
+
+  .iiz__zoom-portal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100000000;
+  }
+
+  .iiz__btn {
+    background: rgba(255, 255, 255, 0.8);
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .iiz__btn:before {
+    content: " ";
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+  }
+
+  // .iiz__hint {
+  //   bottom: 10px;
+  //   right: 10px;
+  //   pointer-events: none;
+  // }
+
+  // .iiz__hint:before {
+  //   content: " ";
+  //   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19.9 19.9'%3E%3Cpath d='M13.9 7.4C13.9 3.8 11 .9 7.4.9S.9 3.8.9 7.4s2.9 6.5 6.5 6.5 6.5-2.9 6.5-6.5zm5.3 12.5l-6.7-7.2c-1.4 1.3-3.2 2.1-5.1 2.1-4.1 0-7.4-3.3-7.4-7.4S3.3 0 7.4 0s7.4 3.3 7.4 7.4c0 1.7-.6 3.4-1.7 4.7l6.8 7.2-.7.6z' fill='%23000222'/%3E%3C/svg%3E");
+  //   width: 20px;
+  //   height: 20px;
+  // }
+
+  .iiz__close {
+    top: 10px;
+    right: 10px;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .iiz__close--visible {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .iiz__close::before {
+    content: " ";
+    width: 29px;
+    height: 29px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#222),
+        to(#222)
+      ),
+      -webkit-gradient(linear, left top, left bottom, from(#222), to(#222));
+    background-image: linear-gradient(#222, #222), linear-gradient(#222, #222);
+    background-size: 100% 1px, 1px 100%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+
+.reviews {
+  margin-bottom: 1rem;
+}
+
+.productDetails {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-bottom: 1px solid rgb(76, 84, 113);
+  display: block;
+  width: 100%;
+  margin-top: 0px !important;
+  ul,
+  ul li {
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    list-style-type: none;
+    margin: 0 auto 1rem;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  .Pageprice {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .seriously {
+    list-style-type: none !important;
+    padding: 0;
+  }
+}
+
+.addToCart {
+  max-width: 30rem;
+  margin-top: 3rem;
+}
+
+.ColorsColumn {
+  margin-top: 2rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-flow: wrap;
+}
+.ColorsColumn div {
+  cursor: pointer;
+  background-color: #b7d1eaa3;
+  border-radius: 10px;
+  padding: 1rem;
+
+  &:hover {
+    transition: 100ms;
+    background: white;
+    outline: 1px solid #1d62a6;
+  }
+}
+// .ColorsColumn div:focus{
+//   transition: 100ms;
+//   background: white;
+//   outline: 1px solid #1D62A6;
+
+// }
+// .ColorsColumn div:active{
+//   transition: 100ms;
+//   background: white;
+//   outline: 1px solid #1D62A6;
+
+// }
+.FocusHoverVariations0 {
+  // transition: 100ms;
+  cursor: pointer;
+  background-color: #b7d1eaa3;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: max-content;
+  min-width: 8rem;
+}
+.FocusHoverVariations2 {
+  // transition: 100ms;
+  background: rgb(245, 249, 253) !important;
+  outline: 1px solid #1d62a6;
+  cursor: pointer;
+}
+.desc {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  font-size: 14px;
+  font-weight: 500;
+  // white-space: nowrap;
+  max-width: 1000px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 95% !important;
+}
+.ClipWrapper {
+  background: #d8e0e6;
+  margin-top: 4rem;
+  border-radius: 8px;
+}
+.aligner {
+  margin-left: 1rem;
+  align-self: end !important;
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  justify-content: space-between;
+}
+.ClipWrapperIncentive {
+  // text-align: justify;
+  // text-align-last: center;
+  margin-bottom: 1.5rem;
+  background: #1a969d;
+  padding: 1rem;
+  border-radius: 6px;
+  color: rgb(255, 255, 255) !important;
+  // font-weight: 600;
+  a {
+    color: white !important;
+  }
+}
+.ClipWrapperIncentive2 {
+  // text-align: justify;
+  // text-align-last: center;
+  margin-bottom: 1.5rem;
+  background: #d8e0e6;
+  padding: 1.5rem;
+  border-radius: 6px;
+  color: rgb(0, 0, 0) !important;
+  justify-self: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  // font-weight: 600;
+  a {
+    color: #305e9a !important;
+  }
+}
+
+.reviews2 {
+  // margin-bottom: 1rem;
+  font-size: 18px;
+  padding-top: 1rem;
+  font-weight: 600;
+  height: 4rem;
+  // background: rgba(246, 248, 130, 0.356);
+}
+.ClipImage {
+  display: block;
+  width: 50px !important;
+  height: 30px;
+  background-color: #6090b6;
+  justify-content: end;
+  align-self: end !important;
+  margin-right: 30px;
+}
+.videoReel {
+  height: 20rem;
+  width: 100%;
+  // background: rgba(246, 248, 130, 0.356);
+  margin-top: 0.2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  border-radius: 15px;
+
+  // box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+}
+.ReviewBtnMakeSpecial {
+  display: none;
+  height: 50px;
+  width: 500px;
+  // left: 70%;
+  padding: 0px 20px;
+  // margin-left: 5%;
+  margin-right: auto;
+  // left: 20%;
+}
+.sellerdetails {
+  font-family: system, -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe WP",
+    Roboto, Ubuntu, Oxygen, Cantarell, "Fira Sans", "Helvetica Neue", Helvetica,
+    "Lucida Grande", "Droid Sans", Tahoma, "Microsoft Sans Serif", sans-serif;
+  font-size: 16px;
+  color: #000;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 7px;
+  background-color: #e7ebee;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 94%;
+  height: 10rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .productCard {
+    max-width: 150rem;
+    margin: 2rem 1.5rem 5rem;
+    display: block;
+    height: 100% !important;
+    max-height: none;
+
+    // .hero {
+    //     display: block;
+    //     width: 100%;
+    //     margin: 2rem auto;
+    .LeftSideImages {
+      //   width: 100%;
+      // width: 90rem;
+      // display: grid;
+      align-items: flex-start;
+
+      min-height: 42rem;
+      min-width: 100% !important;
+      max-width: 100% !important;
+      margin: 0px;
+      // grid-template-rows: 1fr 0.25fr !important;
+      // grid-template-columns: 1fr;
+    }
+    .SliderOfProdImages {
+      // display: none;
+      gap: 0.5rem;
+    }
+
+    .BigPicture {
+      display: block;
+      // position: absolute;
+      vertical-align: middle;
+      // transform: translate(0, 50%)
+      max-height: 39rem;
+    }
+    .eachSlideImage {
+      display: block;
+    }
+    .productDetails {
+      margin-top: 5rem;
+    }
+
+    img {
+      margin: 0;
+      max-height: 60rem;
+      //   display: inline-block;
+      //   width: 100%;
+      //   margin: 0;
+      //   width: 50px;
+      // object-fit: scale-down !important;
+      //   max-width: 100% !important;
+      //   max-height: 100% !important;
+    }
+    .addToCart {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 40rem !important;
+    }
+  }
+  .ColorsColumn {
+    margin-top: 2rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    flex-flow: wrap;
+  }
+  .FocusHoverVariations0 {
+    width: 9rem !important;
+  }
+  .videoReel {
+    //  margin-top: 25rem;
+    //   box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+  }
+  .ReviewBtnMakeSpecial {
+    // height: 50px;
+    display: block;
+    width: auto;
+    padding: 0px 20px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .Pageprice {
+    font-size: 24px !important;
+    // font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}

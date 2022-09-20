@@ -1,0 +1,58 @@
+.columnsliderBox {
+    height: 250px;
+    width: 100%;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    .product {
+        width: 200px;
+        height: 180px;
+        .thumb {
+            display: flex;
+            width: 100%;
+            height: 130px;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            // SO I COULD NOT PUT DETAILS UNDER THUMB BECAUSE DETAILS WAS UNDER PRODUCT DIV
+            a {
+                height: 100%;
+                width: 100%;
+            }
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                object-fit: cover !important;
+                // height: 30%;
+                // border-radius: 2px;
+            }
+        }
+        .details {
+            height: 50px !important;
+            overflow: hidden;
+            padding: 0;
+
+            ul {
+                height: 100%;
+                overflow: hidden;
+
+                li {
+                    height: 100%;
+                    span {
+                        font-weight: 500;
+                    }
+                }
+            }
+            .price {
+                display: none;
+            }
+        }
+    }
+}
+
+.columnNongrid {
+    display: flex;
+    height: 100%;
+}

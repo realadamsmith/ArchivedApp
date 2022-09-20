@@ -1,0 +1,69 @@
+.WholePage {
+    // background: rgb(18, 19, 16);
+    justify-content: center !important;
+    align-items: center !important;
+    width: 1100px;
+    align-content: center !important;
+    padding: 50px;
+    // box-sizing: border-box;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    // font-family: "sofiapro-regular", PingFangSC, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    // box-shadow: 0px 2px 20px rgba(34, 90, 89, 0.2);
+    // border-radius: 8px;
+    transition: box-shadow 200ms ease;
+    display: block;
+    color: #000000;
+    // flex: 0 0 50%;
+    padding: 12rem 10rem 18rem 9rem;
+    border: 1px solid black !important;
+}
+.IndependentMainWrap {
+    // width: 1400px;
+    // height: 100vh;
+    // margin: auto;
+}
+
+.Opener {
+    font-size: 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: rgb(20, 21, 18);
+    // text-justify: auto;
+    text-align: center;
+    // padding-top: 50px;
+}
+.Description {
+    font-size: 2.5rem;
+    color: rgb(20, 21, 18);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.spacer {
+    height: 15rem;
+    width: auto;
+}
+
+.GoBackHolder{
+    width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    // .Opener {
+    //     font-size: 32px;
+
+    // }
+    // .Description {
+    //     font-size: 24px;
+
+    // }
+}
